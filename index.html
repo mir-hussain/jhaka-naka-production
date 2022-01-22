@@ -37,9 +37,10 @@
       <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
         <h1 class="text-3xl">Jhaka Naka Production</h1>
         <ul class="flex gap-x-5 text-xl hidden md:flex">
-          <li>About Us</li>
-          <li>Our Movies</li>
-          <li>Services</li>
+          <a href="#about"><li class="cursor-pointer">About Us</li></a>
+
+          <li class="cursor-pointer">Our Movies</li>
+          <li class="cursor-pointer">Services</li>
         </ul>
       </nav>
     </header>
@@ -67,7 +68,7 @@
 
       <!-- About Us -->
 
-      <section class="p-10">
+      <section id="about" class="p-10">
         <div class="border-2 border-offBlack p-10">
           <div class="lg:flex gap-x-10">
             <div
@@ -145,30 +146,71 @@
           <div
             class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5"
           >
-            <div
-              class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center"
-            ></div>
+            <a
+              href="https://www.imdb.com/title/tt6723592/?ref_=nv_sr_srsg_0"
+              target="_blank"
+            >
+              <div
+                class="w-full h-full bg-cover bg-center flex justify-center items-center bg-[url('./images/tenet.jpg')] group relative cursor-pointer"
+              >
+                <div
+                  class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block"
+                ></div>
+                <h1
+                  class="font-bebas text-3xl text-white z-10 hidden group-hover:block"
+                >
+                  Tenet
+                </h1>
+              </div>
+            </a>
           </div>
           <div
             class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5"
           >
             <div
-              class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center"
-            ></div>
+              class="w-full h-full bg-cover bg-center flex justify-center items-center bg-[url('./images/inception.jpg')] group relative"
+            >
+              <div
+                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block"
+              ></div>
+              <h1
+                class="font-bebas text-3xl text-white z-10 hidden group-hover:block"
+              >
+                Inception
+              </h1>
+            </div>
           </div>
           <div
             class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5"
           >
             <div
-              class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center"
-            ></div>
+              class="w-full h-full bg-cover bg-center flex justify-center items-center bg-[url('./images/fractured.jpg')] group relative"
+            >
+              <div
+                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block"
+              ></div>
+              <h1
+                class="font-bebas text-3xl text-white z-10 hidden group-hover:block"
+              >
+                Fractured
+              </h1>
+            </div>
           </div>
           <div
             class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5"
           >
             <div
-              class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center"
-            ></div>
+              class="w-full h-full bg-cover bg-center flex justify-center items-center bg-[url('./images/interstellar.jpg')] group relative"
+            >
+              <div
+                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block"
+              ></div>
+              <h1
+                class="font-bebas text-3xl text-white z-10 hidden group-hover:block"
+              >
+                Interstellar
+              </h1>
+            </div>
           </div>
         </div>
       </section>
